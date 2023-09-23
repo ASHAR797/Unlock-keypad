@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYPAD UNLOCK PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Press Unlock And then Press * key </h1>
+       <div class="keypad-mobile">
+              <div id="screen">
+                    <div class="modal">
+                          <h3>and then press * key</h1>
+                    </div>
+                    <div>
+                        <h3 id="unlock-text">UNLOCK</h3>
+                    </div>
+              </div>
+              <div id="buttons">
+                <div class="nav-button">
+                    <button id="unlock-btn" onclick="unlock_operation_1()">---</button>
+                    <button onclick="show_modal()">|___|</button>
+                    <button onclick="show_modal()">"_"</button>
+                </div>
+                <div id="counting">
+                    <button onclick="show_modal()">1</button>
+                    <button onclick="show_modal()">2</button>
+                    <button onclick="show_modal()">3</button>
+                    <button onclick="show_modal()">4</button>
+                    <button onclick="show_modal()">5</button>
+                    <button onclick="show_modal()">6</button>                    
+                    <button onclick="show_modal()">7</button>
+                    <button onclick="show_modal()">8</button>
+                    <button onclick="show_modal()">9</button>
+                </div>
+                <div class="bottom-button">
+                    <button id="star-key" onclick="complete_unlock_operation()">*</button>
+                    <button onclick="show_modal()">0</button>
+                    <button onclick="show_modal()">#</button>
+                </div>
+              </div>
+       </div>   
+
+       <script src="app.js"></script>
+</body>
+</html>
